@@ -9,6 +9,11 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "lua_ls",
         "pyright",
+        "rust_analyzer",
+        "tsserver",
+        "jsonls",
+        "html",
+        "cssls",
       })
     end,
   },
@@ -21,6 +26,8 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "prettier",
         "stylua",
+        "eslint_d",
+        "ts-standard",
       })
     end,
   },
