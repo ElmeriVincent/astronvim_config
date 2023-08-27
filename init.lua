@@ -18,7 +18,9 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrotheme",
+  -- From community, you can try:
+  -- catppuccin, everforest
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -34,7 +36,6 @@ return {
         enabled = true, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
           -- "go",
-          "rust",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
