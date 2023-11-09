@@ -20,7 +20,7 @@ return {
   -- Set colorscheme to use
   -- From community, you can try:
   -- catppuccin, everforest
-  colorscheme = "catppuccin",
+  colorscheme = "catppuccin-frappe",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
