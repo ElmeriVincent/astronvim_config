@@ -7,7 +7,7 @@ return {
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { -- further customize the options set by the community
-    "catppuccin",
+    "everforest",
     opts = {
       integrations = {
         sandwich = false,
